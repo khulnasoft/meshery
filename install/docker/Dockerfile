@@ -22,7 +22,7 @@ RUN apt-get -y update && apt-get -y install git && apt-get clean && rm -rf /var/
 RUN apt-get -y update && apt-get -y  install build-essential libssl-dev git zlib1g-dev
 RUN git config --global user.email "meshery@layer5.io"
 RUN git config --global user.name "meshery"
-RUN git clone --depth=1 https://github.com/khulnasoft/wrk2 && cd wrk2 && make
+RUN git clone --depth=1 https://github.com/khulnasoft-lab/wrk2 && cd wrk2 && make
 
 FROM alpine:3.15.3 as seed_content
 RUN apk add --no-cache curl
@@ -58,7 +58,7 @@ RUN mkdir -p /seed_content/applications && cd /seed_content/applications \
 #RUN apt-get -y update && apt-get -y  install build-essential libssl-dev git zlib1g-dev
 #RUN git config --global user.email "meshery@layer5.io"
 #RUN git config --global user.name "meshery"
-#RUN git clone https://github.com/khulnasoft/nighthawk-go
+#RUN git clone https://github.com/layer5io/nighthawk-go
 #RUN cd nighthawk-go/apinighthawk/bin && chmod +x ./nighthawk_client
 
 

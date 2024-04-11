@@ -103,7 +103,7 @@ Execute a Performance test creating a new performance profile and pass options t
 If any options are already present in the profile or passed through flags, the --options flag will take precedence over the profile and flag options 
 Options for nighthawk - https://github.com/khulnasoft/getnighthawk/blob/v1.0.5/pkg/proto/options.pb.go#L882-L1018
 Options for fortio - https://github.com/fortio/fortio/blob/v1.57.0/fhttp/httprunner.go#L77-L84
-Options for wrk2 - https://github.com/khulnasoft/gowrk2/blob/v0.6.1/api/gowrk2.go#L47-L53
+Options for wrk2 - https://github.com/khulnasoft-lab/wrk2/blob/v0.6.1/api/gowrk2.go#L47-L53
 <pre class='codeblock-pre'>
 <div class='codeblock'>
 mesheryctl perf apply meshery-profile-new --url "https://google.com" --options [filepath|json-string]

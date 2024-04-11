@@ -3,7 +3,7 @@ name: meshery-operator
 description: Meshery Operator chart.
 icon: https://meshery.khulnasoft.com/images/logos/meshery-logo.png
 source:
-  - https://github.com/khulnasoft/meshery-operator
+  - https://github.com/khulnasoft/meshplay-operator
 keywords:
   - meshery-broker
   - meshery-meshsync

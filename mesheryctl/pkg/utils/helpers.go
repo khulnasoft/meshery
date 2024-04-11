@@ -180,13 +180,13 @@ var (
 	// check https://github.com/khulnasoft/meshery/tree/master/install/deployment_yamls/k8s
 	MesheryService = "meshery-service.yaml"
 	//MesheryOperator is the file for default Meshery operator
-	//check https://github.com/khulnasoft/meshery-operator/blob/master/config/manifests/default.yaml
+	//check https://github.com/khulnasoft/meshplay-operator/blob/master/config/manifests/default.yaml
 	MesheryOperator = "default.yaml"
 	//MesheryOperatorBroker is the file for the Meshery broker
-	//check https://github.com/khulnasoft/meshery-operator/blob/master/config/samples/meshery_v1alpha1_broker.yaml
+	//check https://github.com/khulnasoft/meshplay-operator/blob/master/config/samples/meshery_v1alpha1_broker.yaml
 	MesheryOperatorBroker = "meshery_v1alpha1_broker.yaml"
 	//MesheryOperatorMeshsync is the file for the Meshery Meshsync Operator
-	//check https://github.com/khulnasoft/meshery-operator/blob/master/config/samples/meshery_v1alpha1_meshsync.yaml
+	//check https://github.com/khulnasoft/meshplay-operator/blob/master/config/samples/meshery_v1alpha1_meshsync.yaml
 	MesheryOperatorMeshsync = "meshery_v1alpha1_meshsync.yaml"
 	// ServiceAccount is the name of a Kubernetes manifest file required to setup Meshery
 	// check https://github.com/khulnasoft/meshery/tree/master/install/deployment_yamls/k8s
