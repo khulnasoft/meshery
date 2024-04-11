@@ -1,0 +1,11 @@
+- title: Quick Start
+  url: "installation/quick-start"
+- title: Site
+  external_url: https://meshery.khulnasoft.com
+- title: GitHub
+  external_url: https://github.com/khulnasoft/meshery
+- title: Discuss
+  external_url: http://discuss.meshery.khulnasoft.com/ 
+# - title: GitHub
+#   external_url: https://github.com/khulnasoft/meshery
+
