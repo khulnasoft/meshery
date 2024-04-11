@@ -58,7 +58,7 @@
         "@rjsf/core": "^5.8.1",
         "@rjsf/material-ui": "^5.8.2",
         "@rjsf/utils": "^5.15.1",
-        "@rjsf/validator-ajv8": "^5.8.1",
+        "@rjsf/validator-ajv8": "^5.18.2",
         "@uiw/react-md-editor": "^3.14.4",
         "autoprefixer": "^10.4.14",
         "axios": "^1.6.2",
