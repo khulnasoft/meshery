@@ -61,7 +61,7 @@
         "@rjsf/validator-ajv8": "^5.8.1",
         "@uiw/react-md-editor": "^3.14.4",
         "autoprefixer": "^10.4.14",
-        "axios": "^1.6.2",
+        "axios": "^1.7.2",
         "babel-plugin-istanbul": "^6.0.0",
         "babel-plugin-relay": "^13.2.0",
         "billboard.js": "^3.10.2",
